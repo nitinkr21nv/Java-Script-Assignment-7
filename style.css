@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.carousel {
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 45%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
